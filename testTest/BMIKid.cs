@@ -16,7 +16,7 @@ namespace testTest
 
         public double CaclulateBMI()
         {
-            return Wzrost >= 0 ? Waga / ((Wzrost / 100) * (Wzrost / 100)) * Mnoznik : 0;
+            return Wzrost > 0 ? Waga / ((Wzrost / 100) * (Wzrost / 100)) * Mnoznik : 0;
         }
 
         public void setWagaKg(double waga)
